@@ -1,24 +1,14 @@
 import json
-
 import pandas as pd
-
 from datetime import datetime
 from typing import List, Tuple
 from collections import defaultdict
-
-import json
 import unicodedata
-
 import emoji
-
 from collections import Counter
 from typing import List, Tuple
-
 import re
-import json
 
-from collections import Counter
-from typing import List, Tuple
 
 def q1_memory(file_path: str) -> List[Tuple[datetime.date, str]]:
     """
